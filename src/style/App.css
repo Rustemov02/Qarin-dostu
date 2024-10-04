@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* hidind spinners of input */
+@layer utilities {
+
+    .no-arrows::-webkit-outer-spin-button,
+    .no-arrows::-webkit-inner-spin-button {
+        @apply appearance-none;
+        margin: 0;
+    }
+
+
+    .no-arrows {
+        -moz-appearance: textfield
+    }
+}
+
+
+
+/* MEDIA QUERiES */
+
+@media (max-width : 962px) {
+    .none962 {
+        display: none;
+    }
+
+    .sectionMenuIcon {
+        display: flex;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .cardDetail {
+        text-align: center;
+    }
+}
+
+@media (max-width : 680px) {
+    .displayContainer {
+        /* flex-direction: column-reverse; */
+    }
+
+    .styleServices {
+        width: 80%
+    }
+
+    .displayInfo {
+        align-items: center;
+    }
+
+    .displayText {
+        text-align: center;
+    }
+
+    .orderButton {
+        flex-direction: column;
+    }
+}

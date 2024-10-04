@@ -1,0 +1,3 @@
+-- Repeat Header component ! ( like Logo , Card buttons etc.)
+-- add images instead of currently images which have good effect(pixels)
+-- repeat count buttons
